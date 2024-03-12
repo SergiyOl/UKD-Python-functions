@@ -1,4 +1,4 @@
-def IsWholeNum(a, b, c, k):
+def IsDivisible(a, b, c, k):
     arr = [a, b, c]
     counter = 0
     for i in arr:
@@ -6,4 +6,4 @@ def IsWholeNum(a, b, c, k):
             counter +=1 
     return counter
 
-print(IsWholeNum(float(input("Введіть число (a): ")), float(input("Введіть число (b): ")), float(input("Введіть число (c): ")), float(input("Введіть дільник (k): "))))
+print(IsDivisible(float(input("Введіть число (a): ")), float(input("Введіть число (b): ")), float(input("Введіть число (c): ")), float(input("Введіть дільник (k): "))))
